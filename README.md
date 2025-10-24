@@ -5,7 +5,11 @@ My personal Claude Code configuration for productive web development. This plugi
 ## Quick Install
 
 ```bash
-/plugin install edmund-io/edmunds-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add edmund-io/edmunds-claude-code
+
+# Step 2: Install the plugin
+/plugin install edmunds-claude-code
 ```
 
 ## What's Inside
@@ -57,24 +61,26 @@ My personal Claude Code configuration for productive web development. This plugi
 
 ## Installation
 
-### Option 1: From GitHub (Recommended)
+### From GitHub (Recommended)
 
 ```bash
-/plugin install edmund-io/edmunds-claude-code
+# Add marketplace
+/plugin marketplace add edmund-io/edmunds-claude-code
+
+# Install plugin
+/plugin install edmunds-claude-code
 ```
 
-### Option 2: From Local Clone
+### From Local Clone (for development)
 
 ```bash
 git clone https://github.com/edmund-io/edmunds-claude-code.git
-/plugin install /path/to/edmunds-claude-code
-```
+cd edmunds-claude-code
 
-### Option 3: As Marketplace
+# Add as local marketplace
+/plugin marketplace add /path/to/edmunds-claude-code
 
-```bash
-/plugin marketplace add edmund-io/edmunds-claude-code
-/plugin marketplace list
+# Install plugin
 /plugin install edmunds-claude-code
 ```
 

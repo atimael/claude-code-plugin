@@ -13,7 +13,9 @@ git remote add origin https://github.com/edmund-io/edmunds-claude-code.git
 git push -u origin main
 
 # 3. Share with others
-# Installation command: /plugin install edmund-io/edmunds-claude-code
+# Installation commands:
+# /plugin marketplace add edmund-io/edmunds-claude-code
+# /plugin install edmunds-claude-code
 ```
 
 ## What You Have
@@ -41,10 +43,14 @@ git push -u origin main
 4. **Test Installation** - `/plugin install edmund-io/edmunds-claude-code`
 5. **Share** - Post on social media, submit to marketplaces
 
-## Installation Command (for users)
+## Installation Commands (for users)
 
 ```bash
-/plugin install edmund-io/edmunds-claude-code
+# Step 1: Add marketplace
+/plugin marketplace add edmund-io/edmunds-claude-code
+
+# Step 2: Install plugin
+/plugin install edmunds-claude-code
 ```
 
 ## Your Plugin URL (after publishing)

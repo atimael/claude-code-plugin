@@ -8,10 +8,13 @@
   "plugins": [
     {
       "name": "edmunds-claude-code",
-      "source": ".",
+      "source": "./",
       "description": "Personal Claude Code configuration with 14 productivity commands and 11 specialized AI agents for modern web development",
       "version": "1.0.0",
-      "author": "Edmund",
+      "author": {
+        "name": "Edmund",
+        "email": "[email protected]"
+      },
       "tags": ["productivity", "nextjs", "supabase", "typescript", "react", "development"]
     }
   ]

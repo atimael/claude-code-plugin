@@ -5,10 +5,8 @@ My personal Claude Code configuration for productive web development. This plugi
 ## Quick Install
 
 ```bash
-/plugin install edmund/claude-setup
+/plugin install edmund-io/edmunds-claude-code
 ```
-
-Replace `edmund` with my actual GitHub username once published.
 
 ## What's Inside
 
@@ -61,25 +59,23 @@ Replace `edmund` with my actual GitHub username once published.
 
 ### Option 1: From GitHub (Recommended)
 
-Once this is pushed to GitHub:
-
 ```bash
-/plugin install your-username/edmund-claude-setup
+/plugin install edmund-io/edmunds-claude-code
 ```
 
 ### Option 2: From Local Clone
 
 ```bash
-git clone https://github.com/your-username/edmund-claude-setup.git
-/plugin install /path/to/edmund-claude-setup
+git clone https://github.com/edmund-io/edmunds-claude-code.git
+/plugin install /path/to/edmunds-claude-code
 ```
 
 ### Option 3: As Marketplace
 
 ```bash
-/plugin marketplace add your-username/edmund-claude-setup
+/plugin marketplace add edmund-io/edmunds-claude-code
 /plugin marketplace list
-/plugin install edmund-claude-setup
+/plugin install edmunds-claude-code
 ```
 
 ## Best For

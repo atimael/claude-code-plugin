@@ -1,0 +1,18 @@
+{
+  "name": "edmund-claude-setup",
+  "owner": {
+    "name": "Edmund",
+    "contact": "github.com/edmund"
+  },
+  "description": "Edmund's curated Claude Code setup for productive development",
+  "plugins": [
+    {
+      "name": "edmund-claude-setup",
+      "source": ".",
+      "description": "Personal Claude Code configuration with 14 productivity commands and 11 specialized AI agents for modern web development",
+      "version": "1.0.0",
+      "author": "Edmund",
+      "tags": ["productivity", "nextjs", "supabase", "typescript", "react", "development"]
+    }
+  ]
+}

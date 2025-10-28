@@ -6,35 +6,6 @@
     "name": "atimael"
   },
   "license": "MIT",
-  "commands": [
-    "./commands/new-task.md",
-    "./commands/misc/code-explain.md",
-    "./commands/misc/code-optimize.md",
-    "./commands/misc/code-cleanup.md",
-    "./commands/misc/feature-plan.md",
-    "./commands/misc/lint.md",
-    "./commands/misc/docs-generate.md",
-    "./commands/api/api-new.md",
-    "./commands/api/api-test.md",
-    "./commands/api/api-protect.md",
-    "./commands/ui/component-new.md",
-    "./commands/ui/page-new.md",
-    "./commands/supabase/types-gen.md",
-    "./commands/supabase/edge-function-new.md"
-  ],
-  "agents": [
-    "./agents/tech-stack-researcher.md",
-    "./agents/backend-architect.md",
-    "./agents/deep-research-agent.md",
-    "./agents/frontend-architect.md",
-    "./agents/learning-guide.md",
-    "./agents/performance-engineer.md",
-    "./agents/refactoring-expert.md",
-    "./agents/requirements-analyst.md",
-    "./agents/security-engineer.md",
-    "./agents/system-architect.md",
-    "./agents/technical-writer.md"
-  ],
   "mcpServers": {
     "context7": {
       "command": "npx",
